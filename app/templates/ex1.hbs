@@ -1,0 +1,18 @@
+{{page-title "Ex1"}}
+
+<div class = "panel-body">
+
+
+<Textarea maxlength={{this.MAX}} @value={{this.content}} {{on "input" this.update}}></Textarea>
+
+<p>Nombre de caractères restant : {{this.size}} </p>
+
+<div class={{this.style}}> {{this.info}}</div>
+
+
+<button type="button"  {{on "click" this.clear}}>Effacer</button>
+<button type="button"  {{on "click" this.save}}>Sauvegarder</button>
+
+
+</div>
+{{outlet}}
