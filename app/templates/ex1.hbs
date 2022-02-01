@@ -7,11 +7,20 @@
 
 <p>Nombre de caractères restant : {{this.size}} </p>
 
-<div class={{this.style}}> {{this.info}}</div>
+<div class={{this.style}}> {{this.info}} </div>
+
+  <p>{{this.items}}</p>
 
 
-<button type="button"  {{on "click" this.clear}}>Effacer</button>
-<button type="button"  {{on "click" this.save}}>Sauvegarder</button>
+
+
+
+
+<button  type="button" {{on "click" this.clear}}>Effacer</button>
+  <button type="button" {{action "save"}}>Sauvegarder</button>
+
+
+
 
 
 </div>

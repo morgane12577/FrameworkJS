@@ -1,0 +1,17 @@
+{{page-title "Ex1b"}}
+
+<div>
+
+  {{@model.items}}
+  <ul>
+    {{#each @model}}
+      <li>{{this}}</li>
+
+    {{/each}}
+  </ul>
+</div>
+
+<LinkTo @route="ex1" >
+  <button type="button">Retour </button>
+</LinkTo>
+{{outlet}}
