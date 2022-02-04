@@ -1,0 +1,33 @@
+{{page-title "Ex2"}}
+<form class ="img-rounded">
+<h1>Service</h1>
+<div class="alert alert-info">
+  <span>Choisissez les éléments à inclure
+    <br>
+    <!--Appel le helper avec le sparamètres voulus -->
+   {{plural @model.countActive "Aucun " "1 " "services"}}
+
+
+  </span>
+
+
+
+</div>
+
+<ul class="list-group">
+{{#each @model.products as |product|}}
+
+ <li class = "list-group-item {{if product.active "active"}}"{{action "toggleActive" product}}> {{product.name}}   {{ format-currency product.price }} </li>
+
+  {{/each}}
+</ul>
+
+
+<br>
+Total:  {{format-currency @model.sumActive}}
+<br>
+  <input type="checkbox" {{action "valider" }} value="valider" id="val">
+  <Input type="text" placeholder="Code Promo" @value="{{@model.codePromo}}"/>
+
+</form>
+{{outlet}}
