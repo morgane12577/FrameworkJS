@@ -1,14 +1,14 @@
 {{page-title "Next"}}
-<div>
 
-  {{@model.items}}
+
+  <h1>Items</h1>
   <ul>
-    {{#each @model}}
-      <li>{{this}}</li>
+    {{#each @model.items as |item|}}
+      <li>{{item}}</li>
 
     {{/each}}
   </ul>
-</div>
+
 
 
 {{outlet}}

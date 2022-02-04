@@ -5,7 +5,6 @@ import { tracked } from '@glimmer/tracking';
 export default class Ex1Controller extends Controller {
   @tracked content = 'Entrez votre texte';
   @tracked info = '';
-  @tracked items = '';
   MAX = 100;
 
   get style() {
@@ -18,27 +17,11 @@ export default class Ex1Controller extends Controller {
     return this.MAX - this.content.length;
   }
 
-  get items() {
-    return this.items;
-  }
-
-  set items(val) {
-    this.items = val;
-  }
-
   @action
   clear() {
     this.content = '';
     this.info = '';
   }
-
-  /*@action
-  save() {
-    this.info = 'Note sauvegardée';
-    this.items = this.content.split('\n');
-    console.log(this.items);
-
-  }*/
 
   @action
   update() {

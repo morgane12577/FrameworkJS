@@ -17,7 +17,8 @@
 
 
 <button  type="button" {{on "click" this.clear}}>Effacer</button>
-  <button type="button" {{action "save"}}>Sauvegarder</button>
+  <!-- PASSAGE DE THIS.CONTENT EN PARAMETRE-->
+  <button type="button" {{action "save" this.content}}>Sauvegarder</button>
 
 
 
