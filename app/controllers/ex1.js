@@ -32,12 +32,13 @@ export default class Ex1Controller extends Controller {
     this.info = '';
   }
 
-  @action
+  /*@action
   save() {
     this.info = 'Note sauvegardée';
     this.items = this.content.split('\n');
     console.log(this.items);
-  }
+
+  }*/
 
   @action
   update() {
