@@ -1,0 +1,38 @@
+{{page-title "Step1"}}
+
+<MultiSelect @elements={{this.dispoItems}}
+             @selected={{this.dispoItems_}}
+             @onChange={{this.changeDispo}}
+  {{ on "dblclick" (fn this.add this.dispoItems this.includedItems this.dispoItems_)}}
+
+
+/>
+
+<div disabled="{{if this.dispoItems_ '' 'disabled'}}" {{action "add" this.dispoItems this.includedItems
+                                                               this.dispoItems_}}
+     class="btn btn-primary">Ajouter
+</div>
+
+
+<input type="button" disabled="{{if this.includedItems_ '' 'disabled'}}" value="Retirer" {{action "remove"
+                                                                                                  this.includedItems
+                                                                                                  this.dispoItems
+                                                                                                  this.includedItems_}}>
+<input type="button" value="Ajouter Tout" disabled="{{if this.dispoItems '' 'disabled'}}" {{action "add" this.dispoItems
+                                                                                                   this.includedItems
+                                                                                                   this.dispoItems}}>
+<input type="button" value="Retirer tout" disabled="{{if this.includedItems '' 'disabled'}}" {{action "remove"
+                                                                                                      this.includedItems
+                                                                                                      this.dispoItems
+                                                                                                      this.includedItems}}>
+
+<MultiSelect @elements={{this.includedItems}}
+             @selected={{this.includedItems_}}
+             @onChange={{this.changeIncluded}}
+  {{ on "dblclick" (fn this.remove this.includedItems this.dispoItems  this.includedItems_)}}
+/>
+
+<p>Nombre de produit inclus {{this.includedItems.length}}</p>
+
+<button type="button" disabled="{{if this.includedItems '' 'disabled'}}">Passer à l'étape suivante</button>
+{{outlet}}
