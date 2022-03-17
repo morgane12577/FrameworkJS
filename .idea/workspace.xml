@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b810a5a-efde-45a9-8a0d-e697a6e85d80" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/adapters/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/Abstractroute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/board.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/order/order-id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/sections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/serializers/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/board.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/employee.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/logout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/order/order-id.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/sections.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24EjbI5Fks26Owg2jyeeeiZs27e" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\TDs_ember\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b810a5a-efde-45a9-8a0d-e697a6e85d80" name="Changes" comment="" />
+      <created>1643202710770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643202710770</updated>
+      <workItem from="1643202713225" duration="9983000" />
+      <workItem from="1643627450261" duration="2525000" />
+      <workItem from="1643728876790" duration="7279000" />
+      <workItem from="1643966103516" duration="2221000" />
+      <workItem from="1643975350822" duration="1395000" />
+      <workItem from="1643977563906" duration="5530000" />
+      <workItem from="1643983167352" duration="5580000" />
+      <workItem from="1643998894494" duration="318000" />
+      <workItem from="1644496350565" duration="2005000" />
+      <workItem from="1644498399633" duration="8548000" />
+      <workItem from="1647005816486" duration="3958000" />
+      <workItem from="1647520291022" duration="3495000" />
+      <workItem from="1647524436934" duration="5686000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
