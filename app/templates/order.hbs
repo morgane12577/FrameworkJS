@@ -16,19 +16,25 @@
   </tr>
 
 {{#each @model.orderdetails as |details|}}
-  <tr>
+  <tr >
     <td>{{details.product.name}}</td> <td>{{details.quantity}}</td> <td>{{details.product.price}} €</td>
-    <td>{{details.getAmmount}} €</td>
-    <td> <input type="checkbox"></td>
+    <td>{{details.amount}} €</td>
+    <td> <Input @type="checkbox" @checked={{details.prepared}} /> </td>
   </tr>
   {{/each}}
   <tr>
     <td></td>  <td></td> <td></td>
-    <td>{{@model.amount}}</td>
+    <td>{{@model.amount}} €</td>
     <td>{{@model.toPay}} €</td>
   </tr>
 
 </table>
+
+<h1>Produits préparés </h1>
+{{#each @model.orderdetails as |details|}}
+  {{details.product.nom}}
+  {{/each}}
+
 
 
 {{outlet}}
