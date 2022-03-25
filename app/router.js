@@ -13,4 +13,5 @@ Router.map(function () {
   this.route('logout');
   this.route('sections');
   this.route('orderdetail');
+  this.route('order', { path: 'order/:order_id' });
 });
