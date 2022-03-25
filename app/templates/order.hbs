@@ -6,11 +6,29 @@
 <div style="background-color: black; height: 50px; color: white; vertical-align: center"> {{@model.user.name}} ({{@model.user.email}})</div>
 
 <div class="label"> {{@model.dateCreation}}</div>
+<table class="ui table">
+  <tr>
+    <td>Proudit</td>
+    <td>Quantité</td>
+    <td>Prix</td>
+    <td>Montant</td>
+    <td>Preparation</td>
+  </tr>
 
-{{#each @model.orderdetails as |p|}}
-
+{{#each @model.orderdetails as |details|}}
+  <tr>
+    <td>{{details.product.name}}</td> <td>{{details.quantity}}</td> <td>{{details.product.price}} €</td>
+    <td>{{details.getAmmount}} €</td>
+    <td> <input type="checkbox"></td>
+  </tr>
   {{/each}}
+  <tr>
+    <td></td>  <td></td> <td></td>
+    <td>{{@model.amount}}</td>
+    <td>{{@model.toPay}} €</td>
+  </tr>
+
+</table>
 
 
-{{@model.idO}}
 {{outlet}}
