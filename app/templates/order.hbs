@@ -1,2 +1,10 @@
 {{page-title "Order"}}
+<LinkTo @route="board" >
+  <div class="ui brown button ">Retour aux commandes à préparer</div>
+</LinkTo>
+
+<div style="background-color: black; height: 50px; color: white; vertical-align: center"> {{@model.user.name}} ({{@model.user.email}})</div>
+
+
+{{@model.idO}}
 {{outlet}}
